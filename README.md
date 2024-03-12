@@ -6,8 +6,11 @@ Exacmple use case is for a three link robot with the feature-to-track mimicing s
 
 HOW TO USE
 
-1. For your use-case, first run "Read_TLS_Vid.m" 
+1. For your use-case, first run "Read_TLS_Vid.m"
+   
     i.  You will be prompted to select the bounds of your video (to crop)
+   
     ii. You will then be prompted to select some properties of your feature in the video.
+   
     iii. A matlab table will be generated which holds metadata making it easier to track your feature.
-2. Then in the "Tracling_Zaid.m" file, input the video file to track and tabular data that was generated and run the script.
+3. Then in the "Tracling_Zaid.m" file, input the video file to track and tabular data that was generated and run the script.
