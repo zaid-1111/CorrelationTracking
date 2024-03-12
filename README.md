@@ -3,6 +3,8 @@ Open Source tracking algorithm
 Cross-Correlation based specific-feature tracking: Tracks a given feature in a video and generates relative positional data.
 Exacmple use case is for a three link robot with the feature-to-track mimicing spherical particles.
 
+For the test run, simply execute "Tracking_Zaid.m" file. This will run the tracking algorithm for a sample video I took of the Three Link Swimmer robot, returning tracked video and data for each of the links
+
 
 HOW TO USE
 
@@ -13,4 +15,4 @@ HOW TO USE
     ii. You will then be prompted to select some properties of your feature in the video.
    
     iii. A matlab table will be generated which holds metadata making it easier to track your feature.
-3. Then in the "Tracling_Zaid.m" file, input the video file to track and tabular data that was generated and run the script.
+3. Then in the "Tracking_Zaid.m" file, input the video file to track and tabular data that was generated and run the script.
