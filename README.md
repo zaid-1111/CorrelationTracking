@@ -19,3 +19,4 @@ For the test run, simply execute "Tracking_Zaid.m" file. This will run the track
     iii. A matlab table will be generated which holds metadata making it easier to track your feature.
 3. Then in the "Tracking_Zaid.m" file, input the video file to track and tabular data that was generated and run the script.
 
+To implement real-time capability, first configure the tabular data to select the relavant feature in your camera's field of view. Then, simply implement the real-time capture function built in matlab, replacing the video file.
